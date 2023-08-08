@@ -17,6 +17,17 @@
 		9F2A20742A8096B600E2F8EE /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = 9F2A20732A8096B600E2F8EE /* SwiftyJSON */; };
 		9F2A20772A8096C000E2F8EE /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 9F2A20762A8096C000E2F8EE /* Kingfisher */; };
 		9F2A20792A809B9D00E2F8EE /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 9F2A20782A809B9D00E2F8EE /* .gitignore */; };
+		9F2A207B2A809C2F00E2F8EE /* TranslationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2A207A2A809C2F00E2F8EE /* TranslationViewController.swift */; };
+		9F2A207D2A809C5E00E2F8EE /* APIKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2A207C2A809C5E00E2F8EE /* APIKey.swift */; };
+		9FBC2DE42A81C4CE00F3FA19 /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FBC2DE32A81C4CE00F3FA19 /* WeatherViewController.swift */; };
+		9FBC2DE62A81E78B00F3FA19 /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FBC2DE52A81E78B00F3FA19 /* VideoViewController.swift */; };
+		9FBC2DE82A82418A00F3FA19 /* Assignment.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FBC2DE72A82418A00F3FA19 /* Assignment.storyboard */; };
+		9FBC2DEA2A8241A900F3FA19 /* LottreryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FBC2DE92A8241A900F3FA19 /* LottreryViewController.swift */; };
+		9FBC2DEC2A825B3100F3FA19 /* RandomBeerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FBC2DEB2A825B3100F3FA19 /* RandomBeerViewController.swift */; };
+		9FBC2DF52A82991700F3FA19 /* BeerListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FBC2DF32A82991700F3FA19 /* BeerListTableViewCell.swift */; };
+		9FBC2DF62A82991700F3FA19 /* BeerListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FBC2DF42A82991700F3FA19 /* BeerListTableViewCell.xib */; };
+		9FBC2DFC2A82A57300F3FA19 /* BeerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FBC2DFB2A82A57300F3FA19 /* BeerViewController.swift */; };
+		9FBC2E002A82A89800F3FA19 /* BeerListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FBC2DFF2A82A89700F3FA19 /* BeerListTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +40,17 @@
 		9F2A20672A80966400E2F8EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9F2A20692A80966400E2F8EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9F2A20782A809B9D00E2F8EE /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = SOURCE_ROOT; };
+		9F2A207A2A809C2F00E2F8EE /* TranslationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranslationViewController.swift; sourceTree = "<group>"; };
+		9F2A207C2A809C5E00E2F8EE /* APIKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIKey.swift; sourceTree = "<group>"; };
+		9FBC2DE32A81C4CE00F3FA19 /* WeatherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewController.swift; sourceTree = "<group>"; };
+		9FBC2DE52A81E78B00F3FA19 /* VideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoViewController.swift; sourceTree = "<group>"; };
+		9FBC2DE72A82418A00F3FA19 /* Assignment.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Assignment.storyboard; sourceTree = "<group>"; };
+		9FBC2DE92A8241A900F3FA19 /* LottreryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottreryViewController.swift; sourceTree = "<group>"; };
+		9FBC2DEB2A825B3100F3FA19 /* RandomBeerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomBeerViewController.swift; sourceTree = "<group>"; };
+		9FBC2DF32A82991700F3FA19 /* BeerListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerListTableViewCell.swift; sourceTree = "<group>"; };
+		9FBC2DF42A82991700F3FA19 /* BeerListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BeerListTableViewCell.xib; sourceTree = "<group>"; };
+		9FBC2DFB2A82A57300F3FA19 /* BeerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerViewController.swift; sourceTree = "<group>"; };
+		9FBC2DFF2A82A89700F3FA19 /* BeerListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeerListTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,12 +88,23 @@
 			children = (
 				9F2A205B2A80966200E2F8EE /* AppDelegate.swift */,
 				9F2A205D2A80966200E2F8EE /* SceneDelegate.swift */,
+				9F2A20662A80966400E2F8EE /* LaunchScreen.storyboard */,
 				9F2A205F2A80966200E2F8EE /* ViewController.swift */,
+				9FBC2DE52A81E78B00F3FA19 /* VideoViewController.swift */,
+				9FBC2DE32A81C4CE00F3FA19 /* WeatherViewController.swift */,
+				9F2A207A2A809C2F00E2F8EE /* TranslationViewController.swift */,
 				9F2A20612A80966200E2F8EE /* Main.storyboard */,
 				9F2A20642A80966400E2F8EE /* Assets.xcassets */,
-				9F2A20662A80966400E2F8EE /* LaunchScreen.storyboard */,
-				9F2A20692A80966400E2F8EE /* Info.plist */,
 				9F2A20782A809B9D00E2F8EE /* .gitignore */,
+				9F2A207C2A809C5E00E2F8EE /* APIKey.swift */,
+				9FBC2DE72A82418A00F3FA19 /* Assignment.storyboard */,
+				9FBC2DFF2A82A89700F3FA19 /* BeerListTableViewController.swift */,
+				9FBC2DFB2A82A57300F3FA19 /* BeerViewController.swift */,
+				9FBC2DF32A82991700F3FA19 /* BeerListTableViewCell.swift */,
+				9FBC2DF42A82991700F3FA19 /* BeerListTableViewCell.xib */,
+				9FBC2DE92A8241A900F3FA19 /* LottreryViewController.swift */,
+				9FBC2DEB2A825B3100F3FA19 /* RandomBeerViewController.swift */,
+				9F2A20692A80966400E2F8EE /* Info.plist */,
 			);
 			path = SeSAC3Week4;
 			sourceTree = "<group>";
@@ -147,7 +180,9 @@
 				9F2A20792A809B9D00E2F8EE /* .gitignore in Resources */,
 				9F2A20682A80966400E2F8EE /* LaunchScreen.storyboard in Resources */,
 				9F2A20652A80966400E2F8EE /* Assets.xcassets in Resources */,
+				9FBC2DF62A82991700F3FA19 /* BeerListTableViewCell.xib in Resources */,
 				9F2A20632A80966200E2F8EE /* Main.storyboard in Resources */,
+				9FBC2DE82A82418A00F3FA19 /* Assignment.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -158,9 +193,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F2A207B2A809C2F00E2F8EE /* TranslationViewController.swift in Sources */,
+				9FBC2DF52A82991700F3FA19 /* BeerListTableViewCell.swift in Sources */,
+				9FBC2DE62A81E78B00F3FA19 /* VideoViewController.swift in Sources */,
+				9FBC2DE42A81C4CE00F3FA19 /* WeatherViewController.swift in Sources */,
+				9FBC2DEC2A825B3100F3FA19 /* RandomBeerViewController.swift in Sources */,
+				9FBC2DEA2A8241A900F3FA19 /* LottreryViewController.swift in Sources */,
 				9F2A20602A80966200E2F8EE /* ViewController.swift in Sources */,
+				9FBC2DFC2A82A57300F3FA19 /* BeerViewController.swift in Sources */,
 				9F2A205C2A80966200E2F8EE /* AppDelegate.swift in Sources */,
 				9F2A205E2A80966200E2F8EE /* SceneDelegate.swift in Sources */,
+				9F2A207D2A809C5E00E2F8EE /* APIKey.swift in Sources */,
+				9FBC2E002A82A89800F3FA19 /* BeerListTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
