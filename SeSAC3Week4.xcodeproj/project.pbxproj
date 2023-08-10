@@ -19,6 +19,9 @@
 		9F2A20792A809B9D00E2F8EE /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 9F2A20782A809B9D00E2F8EE /* .gitignore */; };
 		9F2A207B2A809C2F00E2F8EE /* TranslationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2A207A2A809C2F00E2F8EE /* TranslationViewController.swift */; };
 		9F2A207D2A809C5E00E2F8EE /* APIKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2A207C2A809C5E00E2F8EE /* APIKey.swift */; };
+		9F7FC1E02A83230E00C99092 /* VideoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F7FC1DF2A83230E00C99092 /* VideoTableViewCell.swift */; };
+		9F7FC1F92A84769900C99092 /* PapagoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F7FC1F82A84769900C99092 /* PapagoViewController.swift */; };
+		9F7FC1FB2A84D7E300C99092 /* PapagoAssignmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F7FC1FA2A84D7E300C99092 /* PapagoAssignmentViewController.swift */; };
 		9FBC2DE42A81C4CE00F3FA19 /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FBC2DE32A81C4CE00F3FA19 /* WeatherViewController.swift */; };
 		9FBC2DE62A81E78B00F3FA19 /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FBC2DE52A81E78B00F3FA19 /* VideoViewController.swift */; };
 		9FBC2DE82A82418A00F3FA19 /* Assignment.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FBC2DE72A82418A00F3FA19 /* Assignment.storyboard */; };
@@ -42,6 +45,9 @@
 		9F2A20782A809B9D00E2F8EE /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = SOURCE_ROOT; };
 		9F2A207A2A809C2F00E2F8EE /* TranslationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranslationViewController.swift; sourceTree = "<group>"; };
 		9F2A207C2A809C5E00E2F8EE /* APIKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIKey.swift; sourceTree = "<group>"; };
+		9F7FC1DF2A83230E00C99092 /* VideoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoTableViewCell.swift; sourceTree = "<group>"; };
+		9F7FC1F82A84769900C99092 /* PapagoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PapagoViewController.swift; sourceTree = "<group>"; };
+		9F7FC1FA2A84D7E300C99092 /* PapagoAssignmentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PapagoAssignmentViewController.swift; sourceTree = "<group>"; };
 		9FBC2DE32A81C4CE00F3FA19 /* WeatherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewController.swift; sourceTree = "<group>"; };
 		9FBC2DE52A81E78B00F3FA19 /* VideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoViewController.swift; sourceTree = "<group>"; };
 		9FBC2DE72A82418A00F3FA19 /* Assignment.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Assignment.storyboard; sourceTree = "<group>"; };
@@ -91,9 +97,12 @@
 				9F2A20662A80966400E2F8EE /* LaunchScreen.storyboard */,
 				9F2A205F2A80966200E2F8EE /* ViewController.swift */,
 				9FBC2DE52A81E78B00F3FA19 /* VideoViewController.swift */,
+				9F7FC1DF2A83230E00C99092 /* VideoTableViewCell.swift */,
 				9FBC2DE32A81C4CE00F3FA19 /* WeatherViewController.swift */,
-				9F2A207A2A809C2F00E2F8EE /* TranslationViewController.swift */,
 				9F2A20612A80966200E2F8EE /* Main.storyboard */,
+				9F7FC1FA2A84D7E300C99092 /* PapagoAssignmentViewController.swift */,
+				9F7FC1F82A84769900C99092 /* PapagoViewController.swift */,
+				9F2A207A2A809C2F00E2F8EE /* TranslationViewController.swift */,
 				9F2A20642A80966400E2F8EE /* Assets.xcassets */,
 				9F2A20782A809B9D00E2F8EE /* .gitignore */,
 				9F2A207C2A809C5E00E2F8EE /* APIKey.swift */,
@@ -194,12 +203,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				9F2A207B2A809C2F00E2F8EE /* TranslationViewController.swift in Sources */,
+				9F7FC1E02A83230E00C99092 /* VideoTableViewCell.swift in Sources */,
 				9FBC2DF52A82991700F3FA19 /* BeerListTableViewCell.swift in Sources */,
 				9FBC2DE62A81E78B00F3FA19 /* VideoViewController.swift in Sources */,
 				9FBC2DE42A81C4CE00F3FA19 /* WeatherViewController.swift in Sources */,
 				9FBC2DEC2A825B3100F3FA19 /* RandomBeerViewController.swift in Sources */,
 				9FBC2DEA2A8241A900F3FA19 /* LottreryViewController.swift in Sources */,
+				9F7FC1FB2A84D7E300C99092 /* PapagoAssignmentViewController.swift in Sources */,
 				9F2A20602A80966200E2F8EE /* ViewController.swift in Sources */,
+				9F7FC1F92A84769900C99092 /* PapagoViewController.swift in Sources */,
 				9FBC2DFC2A82A57300F3FA19 /* BeerViewController.swift in Sources */,
 				9F2A205C2A80966200E2F8EE /* AppDelegate.swift in Sources */,
 				9F2A205E2A80966200E2F8EE /* SceneDelegate.swift in Sources */,

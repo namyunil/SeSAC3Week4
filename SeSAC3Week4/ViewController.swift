@@ -20,6 +20,8 @@ class ViewController: UIViewController {
     
     
     
+    @IBOutlet var searchBar: UISearchBar!
+    @IBOutlet var indicatorView: UIActivityIndicatorView!
     @IBOutlet var movieTableView: UITableView!
     
 //    var movieList: [String] = []
@@ -30,19 +32,22 @@ class ViewController: UIViewController {
         
         movieTableView.dataSource = self
         movieTableView.delegate = self
-        
         movieTableView.rowHeight = 60
         
-        callRequest()
+        indicatorView.isHidden = true
+        
         
         
     }
     
     
     
-    func callRequest() {
+    func callRequest(date: String) {
         
-        let url = "http://kobis.or.kr/kobisopenapi/webservice/rest/boxoffice/searchDailyBoxOfficeList.json?key=\(APIKey.boxOfficeKey)&targetDt=20120101"
+        indicatorView.startAnimating()
+        indicatorView.isHidden = false
+        
+        let url = "http://kobis.or.kr/kobisopenapi/webservice/rest/boxoffice/searchDailyBoxOfficeList.json?key=\(APIKey.boxOfficeKey)&targetDt=\(date)"
         
         AF.request(url, method: .get).validate().responseJSON { response in
             switch response.result {
@@ -71,8 +76,9 @@ class ViewController: UIViewController {
                     let data = Movie(title: movieNm, release: openDT)
                     self.movieList.append(data)
                 }
-                
-                
+                //hidden 처리만 하고 멈춤처리를 하지않으면 indicatorview가 계속 돌아가는 상황이기때문에 세트로 움직인다고 생각!!
+                self.indicatorView.stopAnimating()
+                self.indicatorView.isHidden = true // 통신 끝, 뷰 갱신
                 self.movieTableView.reloadData()
                 
             case .failure(let error):
@@ -82,6 +88,17 @@ class ViewController: UIViewController {
         
     }
 }
+extension ViewController: UISearchBarDelegate {
+    
+    func searchBarSearchButtonClicked(_ searchBar: UISearchBar) {
+        //구현시 고려해야할 조건들..!
+        //20220101 > 1. 8글자 2.20233333 올바른 날짜 3. 날짜 범주
+        
+        callRequest(date: searchBar.text!)
+    }
+    
+}
+
     extension ViewController: UITableViewDelegate, UITableViewDataSource {
         
         func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
