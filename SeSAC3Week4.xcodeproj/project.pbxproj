@@ -31,6 +31,7 @@
 		9FBC2DF62A82991700F3FA19 /* BeerListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FBC2DF42A82991700F3FA19 /* BeerListTableViewCell.xib */; };
 		9FBC2DFC2A82A57300F3FA19 /* BeerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FBC2DFB2A82A57300F3FA19 /* BeerViewController.swift */; };
 		9FBC2E002A82A89800F3FA19 /* BeerListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FBC2DFF2A82A89700F3FA19 /* BeerListTableViewController.swift */; };
+		9FC091D82A84F6FC006416FD /* PapagoPickerViewAssignmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC091D72A84F6FC006416FD /* PapagoPickerViewAssignmentViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -57,6 +58,7 @@
 		9FBC2DF42A82991700F3FA19 /* BeerListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BeerListTableViewCell.xib; sourceTree = "<group>"; };
 		9FBC2DFB2A82A57300F3FA19 /* BeerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerViewController.swift; sourceTree = "<group>"; };
 		9FBC2DFF2A82A89700F3FA19 /* BeerListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeerListTableViewController.swift; sourceTree = "<group>"; };
+		9FC091D72A84F6FC006416FD /* PapagoPickerViewAssignmentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PapagoPickerViewAssignmentViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,8 @@
 				9F7FC1DF2A83230E00C99092 /* VideoTableViewCell.swift */,
 				9FBC2DE32A81C4CE00F3FA19 /* WeatherViewController.swift */,
 				9F2A20612A80966200E2F8EE /* Main.storyboard */,
+				9FC091D72A84F6FC006416FD /* PapagoPickerViewAssignmentViewController.swift */,
+				9FBC2DE92A8241A900F3FA19 /* LottreryViewController.swift */,
 				9F7FC1FA2A84D7E300C99092 /* PapagoAssignmentViewController.swift */,
 				9F7FC1F82A84769900C99092 /* PapagoViewController.swift */,
 				9F2A207A2A809C2F00E2F8EE /* TranslationViewController.swift */,
@@ -111,7 +115,6 @@
 				9FBC2DFB2A82A57300F3FA19 /* BeerViewController.swift */,
 				9FBC2DF32A82991700F3FA19 /* BeerListTableViewCell.swift */,
 				9FBC2DF42A82991700F3FA19 /* BeerListTableViewCell.xib */,
-				9FBC2DE92A8241A900F3FA19 /* LottreryViewController.swift */,
 				9FBC2DEB2A825B3100F3FA19 /* RandomBeerViewController.swift */,
 				9F2A20692A80966400E2F8EE /* Info.plist */,
 			);
@@ -204,6 +207,7 @@
 			files = (
 				9F2A207B2A809C2F00E2F8EE /* TranslationViewController.swift in Sources */,
 				9F7FC1E02A83230E00C99092 /* VideoTableViewCell.swift in Sources */,
+				9FC091D82A84F6FC006416FD /* PapagoPickerViewAssignmentViewController.swift in Sources */,
 				9FBC2DF52A82991700F3FA19 /* BeerListTableViewCell.swift in Sources */,
 				9FBC2DE62A81E78B00F3FA19 /* VideoViewController.swift in Sources */,
 				9FBC2DE42A81C4CE00F3FA19 /* WeatherViewController.swift in Sources */,
